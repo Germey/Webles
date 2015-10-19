@@ -1,0 +1,38 @@
+/************************************************************
+*           web-sn_popup.css - part of EditAce              *
+*           copyright Simon Norris 2002                     *
+*           email: si@web-sn.com                            *
+*           EditAce home page: http://www.web-sn.com        *
+*                                                           *
+*           Removal or modification of this notice is       *
+*	    a violation of copyright and the terms of use   *
+*           Last Modified: June 24 2002                     *
+************************************************************/
+body {
+  border:0;
+  overflow:	hidden;
+  margin: 0;
+  font:	MessageBox;
+  background-color:buttonface;
+}
+
+.brder {
+    border: 1px inset buttonhighlight;  
+	margin-left: 2px; 
+	margin-right: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+table, td {
+    font-family: "MS Sans Serif";
+	font-size: 9pt;
+}
+
+input.buttons {
+  font-weight: normal; 
+  font-size: 8pt; 
+  font-style: normal; 
+  font-family: "MS Sans Serif", Arial, Tahoma,sans-serif;
+  width: 75px;
+}

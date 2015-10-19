@@ -1,0 +1,68 @@
+<HTML>
+<HEAD>
+<TITLE>插入文件</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" type="text/css" href="editor_dialog.css">
+<script language="JavaScript">
+function OK(){
+  var str1="";
+  var strurl=document.form1.url.value;
+  if (strurl==""||strurl=="http://")
+  {
+  	alert("请先输入文件地址，或者上传文件！");
+	document.form1.url.focus();
+	return false;
+  }
+  else
+  {
+    str1=document.form1.url.value
+    window.returnValue = str1
+    window.close();
+  }
+}
+function IsDigit()
+{
+  return ((event.keyCode >= 48) && (event.keyCode <= 57));
+}
+function getpic()
+{var filename = showModalDialog("show_file1.php", "", "dialogWidth:600px; dialogHeight:400px; status:0;help:0");
+  
+ form1.url.value=filename;
+}
+</script>
+</head>
+<BODY bgColor=#D4D0C8 topmargin=15 leftmargin=15 >
+<form name="form1" method="post" action="">
+<table width=100% border="0" align="center" cellpadding="0" cellspacing="2">
+  <tr><td>
+<FIELDSET align=left>
+<LEGEND align=left>输入文件参数</LEGEND>
+<table border="0" align=center cellpadding="0" cellspacing="3">
+<tr>
+  <td colspan="2">文件地址：
+    <input name="url" id="url" value='http://' style="width:200px">
+
+
+</td>
+  </tr></table>
+</fieldset>
+</td><td width=80 align="center">
+  <br>
+  <br>
+<input name="cmdOK" type="button" id="cmdOK" value="  确定  " onClick="OK();">
+  <br>
+  <br>
+<input name="cmdCancel" type=button id="cmdCancel" onclick="window.close();" value='  取消  '></td></tr>
+  <tr>
+    <td>
+<FIELDSET align=left>
+<LEGEND align=left>上传本地文件</LEGEND>
+<iframe class="TBGen" style="top:2px" ID="UploadFiles" src="upload_file.php" frameborder=0 scrolling=no width="350" height="25"></iframe>
+</fieldset>
+	</td>
+    <td align="center"><input name="UpFileName" type="hidden" id="UpFileName" value="None"></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

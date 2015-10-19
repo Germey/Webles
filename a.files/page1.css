@@ -1,0 +1,84 @@
+.page1_margin {
+	MARGIN: 0px 1em 0px 0px
+}
+.page1_margin_2 {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 3px
+}
+.page1_margin_3 {
+	MARGIN-BOTTOM: 8px
+}
+.page1 {
+	DISPLAY: inline; FLOAT: right; LIST-STYLE-TYPE: none; HEIGHT: 1.7em
+}
+.page1 {
+	LINE-HEIGHT: 1.7em
+}
+.page1 LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 0px 0px 5px
+}
+.page1 LI.dot {
+	BACKGROUND: url(http://img.liecheng.com/images/d7.gif) repeat-x 0px 50%; MARGIN: 0px 0px 0px 5px; WIDTH: 8px; COLOR: #666
+}
+.page1 LI A:link {
+	PADDING-RIGHT: 4px; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; COLOR: #666; LINE-HEIGHT: 20px; PADDING-TOP: 0px
+}
+.page1 LI A:visited {
+	PADDING-RIGHT: 4px; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; COLOR: #666; LINE-HEIGHT: 20px; PADDING-TOP: 0px
+}
+.page1 LI A:link {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FLOAT: left; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.page1 LI A:visited {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FLOAT: left; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.page1 LI A:hover {
+	BORDER-RIGHT: #090 1px solid; BORDER-TOP: #090 1px solid; BACKGROUND: url(http://img.liecheng.com/images/linebg2.gif) repeat-x 0px 100%; BORDER-LEFT: #090 1px solid; BORDER-BOTTOM: #090 1px solid
+}
+.page1 LI A:active {
+	BORDER-RIGHT: #090 1px solid; BORDER-TOP: #090 1px solid; BACKGROUND: url(http://img.liecheng.com/images/linebg2.gif) repeat-x 0px 100%; BORDER-LEFT: #090 1px solid; BORDER-BOTTOM: #090 1px solid
+}
+.page1 LI A:hover {
+	FLOAT: left; COLOR: #fff; TEXT-DECORATION: none
+}
+.page1 LI A:active {
+	FLOAT: left; COLOR: #fff; TEXT-DECORATION: none
+}
+.page1 LI A.curr:link {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; BACKGROUND: #f0fbff; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid
+}
+.page1 LI A.curr:visited {
+	BORDER-RIGHT: #7f9db9 1px solid; BORDER-TOP: #7f9db9 1px solid; BACKGROUND: #f0fbff; BORDER-LEFT: #7f9db9 1px solid; BORDER-BOTTOM: #7f9db9 1px solid
+}
+.page1 LI A.curr:link {
+	FONT-WEIGHT: bold; FLOAT: left; COLOR: #060; TEXT-DECORATION: none
+}
+.page1 LI A.curr:visited {
+	FONT-WEIGHT: bold; FLOAT: left; COLOR: #060; TEXT-DECORATION: none
+}
+.page1 LI #page {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 0.5em; WIDTH: 35px; PADDING-TOP: 0px; HEIGHT: 19px
+}
+.page1 LI #page {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; COLOR: #666; LINE-HEIGHT: 19px; BORDER-BOTTOM: #999 1px solid
+}
+.page1 LI #turnpage {
+	BACKGROUND: #ccc; WIDTH: 40px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 22px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.page1 LI A.turn:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BACKGROUND: url(http://img.liecheng.com/images/btn8_l.gif) #fff no-repeat 0px 50%; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.page1 LI A.turn:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BACKGROUND: url(http://img.liecheng.com/images/btn8_l.gif) #fff no-repeat 0px 50%; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.page1 LI A.turn:link SPAN {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: url(http://img.liecheng.com/images/btn8_r.gif) #fff no-repeat 100% 50%; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; HEIGHT: 22px
+}
+.page1 LI A.turn:visited SPAN {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: url(http://img.liecheng.com/images/btn8_r.gif) #fff no-repeat 100% 50%; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; HEIGHT: 22px
+}
+.page1 LI A.turn:hover {
+	CURSOR: pointer; COLOR: #000; TEXT-DECORATION: underline
+}
+.page1 LI #turnpage {
+	BACKGROUND: url(http://img.liecheng.com/images/btn9.jpg) #ddd no-repeat 0px 0px; FLOAT: left; COLOR: #666; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 22px; BORDER-BOTTOM-STYLE: none
+}

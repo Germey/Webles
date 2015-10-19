@@ -1,0 +1,69 @@
+<HTML>
+<HEAD>
+<TITLE>插入下载文件</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" type="text/css" href="editor_dialog.css">
+<SCRIPT language=JavaScript>
+function OK()
+{
+    if (document.form1.b.value=="")
+	{
+        alert("下载标题不能为空!")
+        document.form1.b.focus();
+        return false;
+    }
+else{
+  window.returnValue = form1.url.value+"*"+form1.b.value+"*"
+    window.close();
+}
+}
+
+function getpic()
+{var filename = showModalDialog("show_file.php", "", "dialogWidth:45em; dialogHeight:40em; status:0;help:0");
+  
+ form1.url.value=filename;
+}
+</SCRIPT>
+</head>
+<BODY bgColor=menu topmargin=15 leftmargin=15 >
+<form name="form1" method="post" action="">
+<table width=100% border="0" align="center" cellpadding="0" cellspacing="2">
+  <tr><td>
+<FIELDSET align=left>
+<LEGEND align=left>下载文件参数</LEGEND>
+<table border="0" align=center cellpadding="0" cellspacing="3">
+<tr>
+  <td>文件地址：
+    <input name="url" id="url" value='http://' size=38 maxlength="200">
+
+    <input type="button" name="Submit" value="..." title="从已上传文件中选择" onclick="getpic()">
+支持格式为：doc，docx，ppt，xls，rar，zip
+</td>
+  </tr>
+<tr>
+          <td> 下载标题：
+            <input name=b id=b size=38 title="输入需要下载文件的标题" maxlength="100"><br>
+输入需要下载文件的标题
+            </td>
+  </tr>
+
+
+</table>
+</fieldset>
+</td><td width=80 align="center"><input name="cmdOK" type="button" id="cmdOK" value="  确定  " onClick="OK();">
+  <br>
+<br>
+<input name="cmdCancel" type=button id="cmdCancel" onclick="window.close();" value='  取消  '></td></tr>
+  <tr>
+    <td>
+<FIELDSET align=left>
+<LEGEND align=left>上传本地图片</LEGEND>
+<iframe class="TBGen" style="top:2px" ID="UploadFiles" src="upload_file.php" frameborder=0 scrolling=no width="350" height="25"></iframe>
+</fieldset>
+	</td>
+    <td align="center"><input name="UpFileName" type="hidden" id="UpFileName" value="None"></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #f0f0f0; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #cfcfcf; SCROLLBAR-3DLIGHT-COLOR: #cfcfcf; SCROLLBAR-ARROW-COLOR: #818a9f; SCROLLBAR-TRACK-COLOR: #e6e6e6; SCROLLBAR-DARKSHADOW-COLOR: #e6e6e6
+}
+TD {
+	FONT-SIZE: 12px; WORD-SPACING: 0px; COLOR: #676767; LINE-HEIGHT: 18px; FONT-FAMILY: "??"
+}
+A:visited {
+	COLOR: #676767; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #676767; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ae7007; TEXT-DECORATION: none
+}
+.left10 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.form {
+	BORDER-RIGHT: #c4c4c4 1px solid; BORDER-TOP: #c4c4c4 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c4c4c4 1px solid; BORDER-BOTTOM: #c4c4c4 1px solid; BACKGROUND-COLOR: #fafafa
+}
+.form1 {
+	BORDER-RIGHT: #c4c4c4 1px solid; BORDER-TOP: #c4c4c4 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #c4c4c4 1px solid; BORDER-BOTTOM: #c4c4c4 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.title {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 32px; FONT-WEIGHT: bold
+}
+.justify {
+	TEXT-ALIGN: justify
+}
+.subj {
+	FONT: 9pt "??"; OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 14px; TEXT-OVERFLOW: ellipsis
+}
+.leftamargin {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px
+}
+.mg {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; TEXT-ALIGN: justify
+}
+.margin {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}

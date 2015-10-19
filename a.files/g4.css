@@ -1,0 +1,384 @@
+.mainbg {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/mainbg.jpg) #fff repeat-x 0px 0px
+}
+.topbar {
+	FONT-SIZE: 1.2em; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/topbarbg.jpg) #be6814 repeat-x 0px 100%; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.topbar LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 0px 0px 1em
+}
+.topbar LI A:link {
+	FONT-SIZE: 12px; COLOR: #fff
+}
+.topbar LI A:visited {
+	FONT-SIZE: 12px; COLOR: #fff
+}
+.topbar LI A:hover {
+	COLOR: #ffc; TEXT-DECORATION: underline
+}
+.topbar LI A:active {
+	COLOR: #ffc; TEXT-DECORATION: underline
+}
+.topbar LI.type {
+	RIGHT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/typebg.png) no-repeat 0px 0px; WIDTH: 235px; POSITION: absolute; TOP: 0px; HEIGHT: 82px
+}
+.topbar LI.type H4 {
+	DISPLAY: block; FONT-SIZE: 14px; FLOAT: left; MARGIN: 0.5em 0px 0px; WIDTH: 100%; COLOR: #c30; TEXT-INDENT: 3em; POSITION: relative; TEXT-ALIGN: left
+}
+.topbar LI.type SPAN {
+	FONT-SIZE: 14px; FLOAT: left; COLOR: #f30; TEXT-INDENT: 55px; LINE-HEIGHT: 1; TEXT-ALIGN: left
+}
+.title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 3em; FLOAT: left; PADDING-BOTTOM: 0.7em; COLOR: #ffc; PADDING-TOP: 0.7em; FONT-FAMILY: 华文行楷, 楷体, 宋体, 黑体; TEXT-ALIGN: left
+}
+.navbar LI.fr A:link {
+	DISPLAY: block; FONT-SIZE: 12px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn4.png) no-repeat 0px 0px; FLOAT: left; MARGIN: 4px 0px 0px; OVERFLOW: hidden; WIDTH: 81px; COLOR: #960; LINE-HEIGHT: 26px; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.navbar LI.fr A:visited {
+	DISPLAY: block; FONT-SIZE: 12px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn4.png) no-repeat 0px 0px; FLOAT: left; MARGIN: 4px 0px 0px; OVERFLOW: hidden; WIDTH: 81px; COLOR: #960; LINE-HEIGHT: 26px; HEIGHT: 24px; TEXT-DECORATION: none
+}
+.navbar LI.fr A:hover {
+	DISPLAY: block; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn3.png) no-repeat 0px 0px; FLOAT: left; CURSOR: pointer; COLOR: #039
+}
+.navbar LI.fr A:active {
+	DISPLAY: block; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn3.png) no-repeat 0px 0px; FLOAT: left; CURSOR: pointer; COLOR: #039
+}
+.navbar A:link {
+	FONT: 14px Arial, Helvetica, sans-serif, 宋体
+}
+.navbar A:visited {
+	FONT: 14px Arial, Helvetica, sans-serif, 宋体
+}
+.navbar .scl {
+	FONT-SIZE: 14px
+}
+.navbar .scl A:link {
+	FONT: 14px Arial, Helvetica, sans-serif, 宋体
+}
+.navbar .scl A:visited {
+	FONT: 14px Arial, Helvetica, sans-serif, 宋体
+}
+.subject {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/subjectbg.jpg) repeat-x 0px 50%; FLOAT: left; WIDTH: 100%; HEIGHT: 30px
+}
+.subject LI {
+	FLOAT: left
+}
+.subject LI H2 {
+	FONT-SIZE: 1.2em; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/d0.jpg) no-repeat 0px 50%; MARGIN: 0px 0px 0px 1em; COLOR: #ffc; TEXT-INDENT: 1.5em; LINE-HEIGHT: 30px
+}
+.subject LI.fr {
+	DISPLAY: inline; FLOAT: right; MARGIN: 0px 1em 0px 0px; LINE-HEIGHT: 30px
+}
+.subject LI.fr A:link {
+	PADDING-RIGHT: 1.2em; PADDING-LEFT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/d1.gif) no-repeat 100% 50%; PADDING-BOTTOM: 0px; COLOR: #ffc; PADDING-TOP: 0px; TEXT-DECORATION: underline
+}
+.subject LI.fr A:visited {
+	PADDING-RIGHT: 1.2em; PADDING-LEFT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/d1.gif) no-repeat 100% 50%; PADDING-BOTTOM: 0px; COLOR: #ffc; PADDING-TOP: 0px; TEXT-DECORATION: underline
+}
+.subject LI.fr A:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.subject LI.fr A:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.outline {
+	BORDER-RIGHT: #090 1px solid; BORDER-TOP: #090 1px solid; BORDER-LEFT: #090 1px solid; BORDER-BOTTOM: #090 1px solid
+}
+.emt {
+	FONT-SIZE: 12px
+}
+.emt .emtt {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/emtt.jpg) no-repeat 0px 0px; FLOAT: left; WIDTH: 100%; HEIGHT: 37px
+}
+.emt .emtm {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/emtm.jpg) repeat-y 0px 0px; FLOAT: left; WIDTH: 100%
+}
+.emt .emtb {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/emtb.jpg) no-repeat 0px 0px; FLOAT: left; WIDTH: 100%; HEIGHT: 21px
+}
+.wlist DD A:link {
+	COLOR: #952c04; TEXT-DECORATION: underline
+}
+.wlist DD A:visited {
+	COLOR: #952c04; TEXT-DECORATION: underline
+}
+.wlist DD A:hover {
+	BACKGROUND: #952c04; COLOR: #fff; TEXT-DECORATION: none
+}
+.wlist DD A:active {
+	BACKGROUND: #952c04; COLOR: #fff; TEXT-DECORATION: none
+}
+.profile .profcontent {
+	MARGIN: 0.8em 0px 0px; COLOR: #069; LINE-HEIGHT: 1.7em; TEXT-ALIGN: left
+}
+.profile A.d:link {
+	MARGIN: 0px 0px 0px 1em; COLOR: #c60; TEXT-DECORATION: underline
+}
+.profile A.d:visited {
+	MARGIN: 0px 0px 0px 1em; COLOR: #c60; TEXT-DECORATION: underline
+}
+.profile A.d:hover {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+.profile A.d:active {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+.reviews .msg {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/mbg.jpg) no-repeat 100% 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0px; WIDTH: 100%; PADDING-TOP: 0.6em
+}
+.reviews .msg EM {
+	MARGIN: 0px 1em 0px 0px; COLOR: #c00
+}
+.message .mlist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/mlist.jpg) #eee repeat-x 0px 100%; FLOAT: left; PADDING-BOTTOM: 0.5em; WIDTH: 100%; PADDING-TOP: 0.5em
+}
+.message .mlist LI A.mtype:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/d5.gif) #eee no-repeat 0px 50%; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0.8em; PADDING-TOP: 0px
+}
+.message .mlist LI A.mtype:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/d5.gif) #eee no-repeat 0px 50%; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0.8em; PADDING-TOP: 0px
+}
+.message .mlist LI A:link {
+	FONT-SIZE: 12px; COLOR: #039; TEXT-DECORATION: underline
+}
+.message .mlist LI A:visited {
+	FONT-SIZE: 12px; COLOR: #039; TEXT-DECORATION: underline
+}
+.message .mlist LI A:hover {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+.message .mlist LI A:active {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+.message .mlist LI .mt {
+	FONT-SIZE: 12px; FLOAT: right; MARGIN: 0px 1em 0px 0px; COLOR: #666; TEXT-ALIGN: left
+}
+.message .ln LI {
+	LINE-HEIGHT: 2.3em
+}
+.message .ln LI.n {
+	MARGIN: 0px; LINE-HEIGHT: 5em; TEXT-ALIGN: center
+}
+.message .ln LI A:link {
+	FONT-SIZE: 1.2em; COLOR: #039; TEXT-DECORATION: underline
+}
+.message .ln LI A:visited {
+	FONT-SIZE: 1.2em; COLOR: #039; TEXT-DECORATION: underline
+}
+.message .ln LI A:hover {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+.message .ln LI A:active {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+#sidebar {
+	BACKGROUND: #c4db9e; WIDTH: 200px
+}
+.spc {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/sdrtbg.jpg) no-repeat 0px 0px; FLOAT: left; WIDTH: 100%; HEIGHT: 20px
+}
+.nav LI A:link {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/nav.jpg) no-repeat 0px 0px; MARGIN: 0px auto 0.5em; WIDTH: 177px; TEXT-INDENT: 1em; LINE-HEIGHT: 32px; HEIGHT: 32px; TEXT-ALIGN: left
+}
+.nav LI A:visited {
+	DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/nav.jpg) no-repeat 0px 0px; MARGIN: 0px auto 0.5em; WIDTH: 177px; TEXT-INDENT: 1em; LINE-HEIGHT: 32px; HEIGHT: 32px; TEXT-ALIGN: left
+}
+.nav LI A:hover {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/navh.jpg) no-repeat 0px 0px; COLOR: #fff; TEXT-DECORATION: none
+}
+.nav LI A:active {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/navh.jpg) no-repeat 0px 0px; COLOR: #fff; TEXT-DECORATION: none
+}
+.nav LI A.curr:link {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/navh.jpg) no-repeat 0px 0px; COLOR: #fff; TEXT-DECORATION: none
+}
+.nav LI A.curr:visited {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/navh.jpg) no-repeat 0px 0px; COLOR: #fff; TEXT-DECORATION: none
+}
+.nt {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/dblline.jpg) repeat-x 0px 100%; FLOAT: left; PADDING-BOTTOM: 0.3em; MARGIN: 1em 0px 0px; WIDTH: 100%; TEXT-INDENT: 2.5em; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+.nt H2 {
+	FONT-SIZE: 14px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/tips.jpg) no-repeat 0.8em 50%
+}
+.sinfo {
+	FLOAT: left; MARGIN: 0.3em 0px 0px; WIDTH: 100%
+}
+.sinfo LI {
+	FONT-SIZE: 12px; FLOAT: left; WIDTH: 100%; TEXT-INDENT: 1em; LINE-HEIGHT: 1.6em; TEXT-ALIGN: left
+}
+.sinfo LI A.btnord:link {
+	DISPLAY: inline; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn1.jpg) no-repeat 0px 0px; FLOAT: left; MARGIN: 0.5em 0px 0px 1em; OVERFLOW: hidden; WIDTH: 86px; COLOR: #000; TEXT-INDENT: 0px; LINE-HEIGHT: 25px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.sinfo LI A.btnord:visited {
+	DISPLAY: inline; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn1.jpg) no-repeat 0px 0px; FLOAT: left; MARGIN: 0.5em 0px 0px 1em; OVERFLOW: hidden; WIDTH: 86px; COLOR: #000; TEXT-INDENT: 0px; LINE-HEIGHT: 25px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.sinfo LI A.btnord:hover {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn2.jpg) no-repeat 0px 0px; COLOR: #fff
+}
+.sinfo LI A.btnord:active {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn2.jpg) no-repeat 0px 0px; COLOR: #fff
+}
+.sinfo LI A.btnmsg:link {
+	DISPLAY: inline; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn1.jpg) no-repeat 0px 0px; FLOAT: left; MARGIN: 0.5em 0px 0px 0.5em; OVERFLOW: hidden; WIDTH: 86px; COLOR: #000; TEXT-INDENT: 0px; LINE-HEIGHT: 25px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.sinfo LI A.btnmsg:visited {
+	DISPLAY: inline; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn1.jpg) no-repeat 0px 0px; FLOAT: left; MARGIN: 0.5em 0px 0px 0.5em; OVERFLOW: hidden; WIDTH: 86px; COLOR: #000; TEXT-INDENT: 0px; LINE-HEIGHT: 25px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.sinfo LI A.btnmsg:hover {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn2.jpg) no-repeat 0px 0px; COLOR: #fff
+}
+.sinfo LI A.btnmsg:active {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btn2.jpg) no-repeat 0px 0px; COLOR: #fff
+}
+.btnp {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.8em; PADDING-TOP: 0px
+}
+.currpos {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0.5em; WIDTH: 100%; PADDING-TOP: 0px
+}
+.currpos LI {
+	FONT-SIZE: 12px; FLOAT: left
+}
+.currpos LI A:link {
+	PADDING-RIGHT: 1.2em; PADDING-LEFT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/a4.gif) no-repeat 100% 30%; PADDING-BOTTOM: 0px; MARGIN: 0px 0.5em 0px 0px; PADDING-TOP: 0px
+}
+.currpos LI A:visited {
+	PADDING-RIGHT: 1.2em; PADDING-LEFT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/a4.gif) no-repeat 100% 30%; PADDING-BOTTOM: 0px; MARGIN: 0px 0.5em 0px 0px; PADDING-TOP: 0px
+}
+.slist LI A:link {
+	FONT-SIZE: 12px; COLOR: #000; TEXT-DECORATION: underline
+}
+.slist LI A:visited {
+	FONT-SIZE: 12px; COLOR: #000; TEXT-DECORATION: underline
+}
+.slist LI A:hover {
+	COLOR: #930; TEXT-DECORATION: none
+}
+.slist LI A:active {
+	COLOR: #930; TEXT-DECORATION: none
+}
+.slist LI.e {
+	FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-INDENT: 0px; LINE-HEIGHT: 3em; TEXT-ALIGN: center
+}
+.slist LI {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/d6.gif) no-repeat 0.8em 40%; FLOAT: left; WIDTH: 100%; TEXT-INDENT: 1.6em; LINE-HEIGHT: 20px; TEXT-ALIGN: left
+}
+.reviews .msg {
+	FONT-SIZE: 12px
+}
+.reviews .msg STRONG {
+	DISPLAY: inline; FONT-WEIGHT: normal; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/tm.jpg) no-repeat 0px 0px; FLOAT: left; MARGIN: 0px 0.5em 0px 2em; OVERFLOW: hidden; WIDTH: 45px; COLOR: #069; TEXT-INDENT: 0.7em; LINE-HEIGHT: 20px; HEIGHT: 18px
+}
+.reviews .msg DD.cont STRONG {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: normal; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/tm.jpg) no-repeat 0px 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 0.5em 0px 0px; OVERFLOW: hidden; WIDTH: 45px; COLOR: #069; TEXT-INDENT: 0.7em; LINE-HEIGHT: 20px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+.cp {
+	PADDING-RIGHT: 0px; BORDER-TOP: #004d00 4px solid; PADDING-LEFT: 0px; FONT-SIZE: 1.2em; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/btmbg.jpg) #803110 0.8em 50%; FLOAT: left; PADDING-BOTTOM: 1em; WIDTH: 100%; PADDING-TOP: 1em
+}
+.cp LI {
+	FONT-SIZE: 12px; COLOR: #ffc; LINE-HEIGHT: 1.7em
+}
+.cp LI A:link {
+	COLOR: #ffc; TEXT-DECORATION: none
+}
+.cp LI A:visited {
+	COLOR: #ffc; TEXT-DECORATION: none
+}
+.cp LI A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.cp LI A:active {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.prof {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 10px; COLOR: #333; LINE-HEIGHT: 1.7em; PADDING-TOP: 10px; TEXT-ALIGN: left
+}
+.prof_images {
+	FLOAT: left; MARGIN: 0px 15px 0px 0px; OVERFLOW: hidden; WIDTH: 300px; HEIGHT: 300px
+}
+.cp LI.cp_admin_login {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 8px
+}
+.cp LI.cp_admin_login A:link {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 10px; BACKGROUND: url(http://img.liecheng.com/images/btn1.gif) #ffc no-repeat 50% 10%; PADDING-BOTTOM: 2px; BORDER-LEFT: #000 1px solid; COLOR: #039; PADDING-TOP: 5px; BORDER-BOTTOM: #000 1px solid; TEXT-DECORATION: none
+}
+.cp LI.cp_admin_login A:visited {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 10px; BACKGROUND: url(http://img.liecheng.com/images/btn1.gif) #ffc no-repeat 50% 10%; PADDING-BOTTOM: 2px; BORDER-LEFT: #000 1px solid; COLOR: #039; PADDING-TOP: 5px; BORDER-BOTTOM: #000 1px solid; TEXT-DECORATION: none
+}
+.cp LI.cp_admin_login A:hover {
+	BACKGROUND: url(http://img.liecheng.com/images/btn1.gif) #fff no-repeat 50% 90%; COLOR: #c00; TEXT-DECORATION: none
+}
+.cp LI.cp_admin_login A:active {
+	BACKGROUND: url(http://img.liecheng.com/images/btn1.gif) #fff no-repeat 50% 90%; COLOR: #c00; TEXT-DECORATION: none
+}
+.shop_base_info {
+	FONT-SIZE: 12px; MARGIN: 0px auto; WIDTH: 93%; COLOR: #000; WORD-BREAK: break-all; BORDER-COLLAPSE: collapse
+}
+.shop_base_info TR TD {
+	LINE-HEIGHT: 1.5em
+}
+.shop_base_info CAPTION {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; COLOR: #333; PADDING-TOP: 10px
+}
+.showwindow_category {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ccc 1px solid; DISPLAY: inline; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 0px 34px; BORDER-LEFT: #ccc 1px solid; WIDTH: 88%; PADDING-TOP: 10px; BORDER-BOTTOM: #ccc 1px solid; LIST-STYLE-TYPE: none
+}
+.showwindow_category LI {
+	FONT-SIZE: 12px; FLOAT: left; OVERFLOW: hidden; WIDTH: 132px; TEXT-INDENT: 1em; LINE-HEIGHT: 2em; HEIGHT: 25px; TEXT-ALIGN: left
+}
+.showwindow_category LI A:link {
+	COLOR: #039; TEXT-DECORATION: underline
+}
+.showwindow_category LI A:visited {
+	COLOR: #039; TEXT-DECORATION: underline
+}
+.showwindow_category LI A:hover {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+.showwindow_category LI A:active {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+.main_banner {
+	POSITION: relative
+}
+.main_banner .float_flash {
+	LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+.view_tools {
+	FLOAT: left; MARGIN: 15px 0px 0px 15px; WIDTH: 90%; POSITION: relative; HEIGHT: 25px
+}
+.view_tools A {
+	DISPLAY: block; BACKGROUND: #eee; FONT: 14px/25px 宋体; WIDTH: 14px; TEXT-INDENT: -9999px; POSITION: absolute; TOP: 0px; HEIGHT: 26px
+}
+.view_tools A:unknown {
+	outline: none
+}
+.view_tools A.prev:link {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/prev.jpg) no-repeat 0px 0px; LEFT: 0px
+}
+.view_tools A.prev:visited {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/prev.jpg) no-repeat 0px 0px; LEFT: 0px
+}
+.view_tools A.prev:hover {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/prev_over.jpg) no-repeat 0px 0px
+}
+.view_tools A.prev:active {
+	BACKGROUND: url(http://img.liecheng.com/images/skins/g4/prev_over.jpg) no-repeat 0px 0px
+}
+.view_tools A.next:link {
+	RIGHT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/next.jpg) no-repeat 0px 0px
+}
+.view_tools A.next:visited {
+	RIGHT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/next.jpg) no-repeat 0px 0px
+}
+.view_tools A.next:hover {
+	RIGHT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/next_over.jpg) no-repeat 0px 0px
+}
+.view_tools A.next:active {
+	RIGHT: 0px; BACKGROUND: url(http://img.liecheng.com/images/skins/g4/next_over.jpg) no-repeat 0px 0px
+}
+.view_tools .zoom {
+	FONT: 12px/25px Arial, Helvetica, sans-serif, 宋体; COLOR: #999; POSITION: relative
+}

@@ -1,0 +1,165 @@
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT-SIZE: 63%; COLOR: #333; FONT-FAMILY: Arial, Helvetica, sans-serif, ËÎÌå, ¿¬Ìå, ºÚÌå; TEXT-ALIGN: center
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+EM {
+	FONT-STYLE: normal
+}
+A:link {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #c30; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #c30; TEXT-DECORATION: underline
+}
+.none {
+	DISPLAY: none
+}
+.block {
+	DISPLAY: block
+}
+.clear {
+	CLEAR: both
+}
+.fl {
+	FLOAT: left
+}
+.fr {
+	FLOAT: right
+}
+#container {
+	FONT-SIZE: 1.2em; MARGIN: 0px auto; WIDTH: 960px
+}
+.ad0 {
+	DISPLAY: block; FLOAT: left; WIDTH: 100%
+}
+.navbar {
+	FONT-SIZE: 1.2em; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 2.2em; HEIGHT: 2.2em
+}
+.navbar LI {
+	FLOAT: left
+}
+.navbar LI.scl {
+	MARGIN: 0px 0px 0px 1em; WIDTH: 440px; COLOR: #c00; TEXT-ALIGN: left
+}
+.navbar LI.fr {
+	FLOAT: right; MARGIN: 0px 0px 0px 0.5em
+}
+.navbar LI A.card:link {
+	MARGIN: 0px 0.2em; COLOR: #039; TEXT-DECORATION: underline
+}
+.navbar LI A.card:visited {
+	MARGIN: 0px 0.2em; COLOR: #039; TEXT-DECORATION: underline
+}
+.navbar LI A.card:hover {
+	COLOR: #960; TEXT-DECORATION: none
+}
+.navbar LI A.card:active {
+	COLOR: #960; TEXT-DECORATION: none
+}
+.mtop {
+	MARGIN-TOP: 10px
+}
+.emt {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 2em; MARGIN-LEFT: 12em; WIDTH: 463px; PADDING-TOP: 2em
+}
+#mainbody {
+	FLOAT: left; WIDTH: 100%
+}
+#main {
+	WIDTH: 750px
+}
+.showwindow {
+	BACKGROUND: #fff; FLOAT: left; WIDTH: 100%
+}
+.wlist {
+	DISPLAY: inline; FLOAT: left; MARGIN: 1em 0px 0px 10px; WIDTH: 170px; HEIGHT: 165px
+}
+.wlist DT {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 160px; HEIGHT: 120px
+}
+.wlist DD {
+	FONT-SIZE: 12px; OVERFLOW: hidden; WIDTH: 170px; LINE-HEIGHT: 2em; HEIGHT: 25px
+}
+.wlist DD.pr {
+	LINE-HEIGHT: 1.2em
+}
+.wlist DD.pr EM {
+	COLOR: #c00
+}
+.profile {
+	BACKGROUND: #fff; FLOAT: left; WIDTH: 100%
+}
+.profile .profimg {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0.8em; MARGIN: 0.8em 0.8em 0px; PADDING-TOP: 0px
+}
+.message {
+	FLOAT: left; WIDTH: 100%
+}
+.message .mlist LI {
+	FLOAT: left; WIDTH: 100%; LINE-HEIGHT: 1.7em; TEXT-ALIGN: left
+}
+.reviews {
+	FLOAT: left; WIDTH: 100%
+}
+.reviews .msg DT {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 80px; HEIGHT: 80px
+}
+.reviews .msg DD {
+	FLOAT: right; WIDTH: 88%; TEXT-INDENT: 0px; LINE-HEIGHT: 1.6em; TEXT-ALIGN: left
+}
+.reviews .msg A.u:link {
+	FLOAT: left; MARGIN: 0px 0.5em 0px 0px; COLOR: #960; TEXT-INDENT: 2em; TEXT-DECORATION: underline
+}
+.reviews .msg A.u:visited {
+	FLOAT: left; MARGIN: 0px 0.5em 0px 0px; COLOR: #960; TEXT-INDENT: 2em; TEXT-DECORATION: underline
+}
+.reviews .msg A.u:hover {
+	COLOR: #090; TEXT-DECORATION: none
+}
+.reviews .msg A.u:active {
+	COLOR: #090; TEXT-DECORATION: none
+}
+.reviews .msg A.u2:link {
+	FLOAT: left; MARGIN: 0px 0.5em 0px 0px; COLOR: #960; TEXT-INDENT: 2em; TEXT-DECORATION: none
+}
+.reviews .msg A.u2:visited {
+	FLOAT: left; MARGIN: 0px 0.5em 0px 0px; COLOR: #960; TEXT-INDENT: 2em; TEXT-DECORATION: none
+}
+.reviews .msg A.u2:hover {
+	CURSOR: default; TEXT-DECORATION: none
+}
+.reviews .msg A.u2:active {
+	CURSOR: default; TEXT-DECORATION: none
+}
+.reviews .msg DD.cont {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: #999 1px; PADDING-LEFT: 1em; BACKGROUND: #fff; PADDING-BOTTOM: 0.4em; BORDER-LEFT: #999 1px solid; WIDTH: 629px; TEXT-INDENT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px solid
+}
+.nav {
+	FLOAT: left; WIDTH: 100%
+}
+.nav LI {
+	FLOAT: left; WIDTH: 100%
+}
+.slist {
+	FLOAT: left; MARGIN: 0.3em 0px 0px; WIDTH: 100%
+}
+.ctr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 0.8em; MARGIN: 0.3em 0px 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.ctr LI {
+	FLOAT: left; WIDTH: 100%; TEXT-INDENT: 1.6em; LINE-HEIGHT: 1.7em; TEXT-ALIGN: left
+}

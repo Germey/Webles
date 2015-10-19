@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>微软首页竖向TAB滑动门_懒人建站</title>
+<style type="text/css">
+body{
+	margin:0; 
+	padding:0; 
+	text-align:center; 
+	font-family:arial, sans-serif; 
+	font-size:12px;
+	background-color:#E0EFF6;}
+ul,li{
+	padding:0px;
+	margin:0px;
+	list-style:none; }
+p{
+	padding:0; 
+	margin:0; line-height:1.5em}
+#wrap{
+	text-align:left;
+	width:900px;
+	background-image: url(images/bj.png);
+	_background-image: url(images/bj.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+#menu{
+	float:left; 
+	width:190px; 
+	background:url(images/shuxian.jpg) no-repeat right center;
+	background-color:#E0EFF6;}
+#menu ul{
+}
+#menu li{
+	height:30px; 
+	line-height:30px; 
+	text-align:right}
+#menu a{color:#333;
+font-size:10pt;
+text-decoration:none; 
+display:block; 
+padding-right:25px}
+#menu a:hover,#menu .on a{
+	color:#007734;
+	height:30px;
+	line-height:30px;
+	background-image: url(images/hover.png);
+	_background-image: url(images/hover.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	font-weight: bold;
+}
+#content{
+	float:left;
+	width:70%;
+	margin-left:24px;}
+#content h1{
+	font-size:16px; 
+	font-weight:normal; 
+	margin:0; 
+	padding:0; 
+	margin-bottom:8px}
+#content ul{
+	list-style:none; 
+	margin:0; 
+	padding:0}
+#content li{padding:3px}
+#copy{clear:both}
+</style>
+<script type="text/javascript">
+<!--
+//切换到相关页
+function gopage(n) 
+{
+  var tag = document.getElementById("menu").getElementsByTagName("li");
+  var taglength = tag.length;
+
+  for (i=1;i<=taglength;i++)
+  {
+    document.getElementById("m"+i).className="";
+    document.getElementById("c"+i).style.display='none';
+  }
+    document.getElementById("m"+n).className="on";
+    document.getElementById("c"+n).style.display='';
+}
+//-->
+</script>
+</head>
+<body>
+<div id="wrap">
+<div id="menu">
+<ul>
+<li id="m1" class="on"><a href="#" onmouseover="javascript:gopage(1)">栏目一</a></li>
+<li id="m2"><a href="#" onmouseover="javascript:gopage(2)">栏目二</a></li>
+<li id="m3"><a href="#" onmouseover="javascript:gopage(3)">栏目三</a></li>
+<li id="m4"><a href="#" onmouseover="javascript:gopage(4)">栏目四</a></li>
+<li id="m5"><a href="#" onmouseover="javascript:gopage(5)">栏目五</a></li>
+</ul>
+</div>
+<div id="content">
+<div id="c1">
+<h1>栏目一</h1>
+<ul>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+</ul>
+</div>
+<div id="c2" style="display:none">
+<h1>栏目二</h1>
+<ul>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+</ul>
+</div>
+<div id="c3" style="display:none">
+<h1>栏目三</h1>
+<ul>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+</ul>
+</div>
+<div id="c4" style="display:none">
+<h1>栏目四</h1>
+<ul>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+</ul>
+</div>
+<div id="c5" style="display:none">
+<h1>栏目五</h1>
+<ul>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+ <li>关于申报2008年度石油勘探局暨油田分公司科技进步奖项目的通知</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>

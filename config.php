@@ -1,0 +1,3 @@
+<?
+require("admin/config.php");
+?>
