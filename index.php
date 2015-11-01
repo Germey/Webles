@@ -303,8 +303,8 @@ baidu.dom.ready(function () {
 	var focus_height=240;
 	var text_height=0;
 	var swf_height = focus_height+text_height;	
-	var pics='img/13.jpg|img/13.jpg|img/huiyi.jpg' 
-	var links='http://www.webles.cn/showarticle.php?articleid=1796|http://www.webles.cn/showarticle.php?articleid=1796|huiyi/index.html' 
+	var pics='img/b1.jpg|img/b2.jpg|img/b3.jpg' 
+	var links='http://www.webles.cn/showarticle.php?articleid=1803|http://www.webles.cn/showarticle.php?articleid=1802|http://www.webles.cn/showarticle.php?articleid=1795' 
 	var texts='||'
 	document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">'); 
 	document.write('<param name="all</paramtAccess" value="sameDomain"><param name="movie" value="focus.swf"><param name="quality" value="high"><param name="bgcolor" value="#f0f0f0">'); 
