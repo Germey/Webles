@@ -150,7 +150,7 @@ $hits=$r['hits'];
 <tr <?if($i%2==0){?>style="background:#f0f0f0"<?}?>>
 <td width=30><img src="img/<?echo $classid;?>.jpg"></td>
 <td>
-<a href="#"  onclick="javascript:window.open('show_video.php?id=<?echo $id;?>','video','width=930,height=560')" style="font-size:14px;"><?echo $title;?></a>
+<a href="showvideo.php?id=<?echo $id;?>"  style="font-size:14px;"><?echo $title;?></a>
 </td>
 <td align=center>
 <?echo $writer;?>
@@ -271,14 +271,14 @@ $text=cut_str($r['content'],200,0,'gb2312');
 <?if($k%2==0){?>
 <tr>
 <td width=50% align=center>
-<a href="#"  onclick="javascript:window.open('show_video.php?id=<?echo $id;?>','video','width=930,height=560')"><img src='<?echo $pic;?>'></a></td>
+<a href="showvideo.php?id=<?echo $id;?>"><img src='<?echo $pic;?>'></a></td>
 <td width=50%>
 <div align=center style="margin-bottom:20px">
-<a href="#"  onclick="javascript:window.open('show_video.php?id=<?echo $id;?>','video','width=930,height=560')" style="font-size:18px;font-weight:800;font-family:Î¢ÈíÑÅºÚ,ËÎÌå;color:#048cd0"><?echo $title;?></a>
+<a href="showvideo.php?id=<?echo $id;?>" style="font-size:18px;font-weight:800;font-family:Î¢ÈíÑÅºÚ,ËÎÌå;color:#048cd0"><?echo $title;?></a>
 </div>
 <div>
 
-<a href="#"  onclick="javascript:window.open('show_video.php?id=<?echo $id;?>','video','width=930,height=560')"  style="font-size:14px;line-height:24px;">¡¡¡¡<?echo $text;?></a>
+<a href="showvideo.php?id=<?echo $id;?>"  style="font-size:14px;line-height:24px;">¡¡¡¡<?echo $text;?></a>
 </div>
 </td>
 </tr>
@@ -291,15 +291,15 @@ else
 
 <td width=50%>
 <div align=center style="margin-bottom:20px">
-<a href="#"  onclick="javascript:window.open('show_video.php?id=<?echo $id;?>','video','width=930,height=560')" style="font-size:18px;font-weight:800;font-family:Î¢ÈíÑÅºÚ,ËÎÌå;color:#048cd0"><?echo $title;?></a>
+<a href="showvideo.php?id=<?echo $id;?>" style="font-size:18px;font-weight:800;font-family:Î¢ÈíÑÅºÚ,ËÎÌå;color:#048cd0"><?echo $title;?></a>
 </div>
 <div>
 
-<a href="#"  onclick="javascript:window.open('show_video.php?id=<?echo $id;?>','video','width=930,height=560')"  style="font-size:14px;line-height:24px;">¡¡¡¡<?echo $text;?></a>
+<a href="showvideo.php?id=<?echo $id;?>"  style="font-size:14px;line-height:24px;">¡¡¡¡<?echo $text;?></a>
 </div>
 </td>
 <td width=50% align=center>
-<a href="#"  onclick="javascript:window.open('show_video.php?id=<?echo $id;?>','video','width=930,height=560')"><img src='<?echo $pic;?>'></a></td>
+<a href="showvideo.php?id=<?echo $id;?>"><img src='<?echo $pic;?>'></a></td>
 </tr>
 <?
 }

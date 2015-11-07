@@ -12,7 +12,7 @@ require("top.php");
 <tr>
 <td height=30>
 
-当前位置:<a href=index.php>首页</a> > 视频中心
+当前位置：<a style="color:black" href=index.php>首页</a> > 视频中心
 </td>
 <td align=right>
 今天是:
